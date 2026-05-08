@@ -1,0 +1,27 @@
+{
+  "name": "pedhot-dev/libsqlorm",
+  "description": "Async-first PocketMine-MP ORM powered by libSQL",
+  "type": "library",
+  "require": {
+    "php": ">=8.3",
+    "sof3/await-generator": "^3.6",
+    "pedhot-dev/nepotismfree-di": "^1.1",
+    "cooldogedev/libsql": "^0.2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "PedhotDev\\libSQLorm\\": "src/PedhotDev/libSQLorm/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^13.1"
+  },
+  "scripts": {
+    "test": "phpunit -c phpunit.xml"
+  }
+}

@@ -1,0 +1,65 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PMMP / Virion
+/.virion/
+/virions/
+/plugins/
+/plugin_data/
+/PocketMine-MP.phar
+
+# IDE
+/.idea/
+/.vscode/
+/*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+/.cache/
+/cache/
+/tmp/
+/temp/
+
+# PHPUnit
+/phpunit.xml
+/.phpunit.result.cache
+
+# Build artifacts
+/build/
+/dist/
+/out/
+
+# Generated docs
+/docs/generated/
+
+# Coverage
+/coverage/
+
+# Env
+.env
+.env.*
+
+# Runtime
+*.sqlite
+*.db
+*.sqlite3
+
+# Pest / Rector / PHPStan
+/.phpstan.cache/
+/rector.php
+/.rector.cache/
+
+# Composer auth
+auth.json
+
+# Misc
+*.bak
+*.old
+*.tmp
