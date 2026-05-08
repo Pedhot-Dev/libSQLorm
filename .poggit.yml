@@ -1,0 +1,17 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Pedhot-Dev/libSQLorm
+build-by-default: true
+branches:
+  - master
+projects:
+  libSQLorm:
+    path: ""
+    model: virion
+    type: library
+    libs:
+      - src: Pedhot-Dev/NepotismFree-DI/NepotismFree-DI
+        version: ^1.0.0-pre
+      - src: cooldogedev/libSQL/libSQL
+        version: ^0.2.6
+      - src: sof3/await-generator/await-generator
+        version: ^3.6.1
+...
