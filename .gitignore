@@ -28,8 +28,8 @@ Thumbs.db
 /temp/
 
 # PHPUnit
-/phpunit.xml
 /.phpunit.result.cache
+/.phpunit.cache
 
 # Build artifacts
 /build/

@@ -1,0 +1,5 @@
+name: libSQLorm
+version: 1.0.0
+antigen: PedhotDev\libSQLorm
+api: 5.0.0
+author: Pedhot-Dev
